@@ -23,10 +23,10 @@ function TodoForm({ addTodo }) {
 
     return (
         <form onSubmit={handleSubmit}
-            className="flex justify-center align-center gap-3    w-full mb-4"
+            className="flex justify-center align-center gap-3 w-auto mb-4"
         >
             <input
-                className="w-96 border-b-2 border-gray-400 rounded ml-6 px-3"
+                className="w-72 md:w-80 lg:w-96 border-b-2 border-gray-400 rounded ml-6 px-3"
                 name="task"
                 type="test"
                 value={todo.task}
