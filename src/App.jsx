@@ -49,14 +49,12 @@ function App() {
   return (
     <div className="flex flex-col justify-center items-center h-screen w-auto px-5">
       <h1 className="text-6xl md:text-7xl lg:text-8xl text-gray-800 font-light font-Roboto text-center mb-8">ReactJs Todo</h1>
-      {/* <div> */}
       <TodoForm addTodo={addTodo} />
       <TodoList
         todos={todos}
         toggleComplete={toggleComplete}
         removeTodo={removeTodo}
       />
-      {/* </div> */}
     </div>
   )
 }
